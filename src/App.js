@@ -1,13 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+
 
 function App() {
   return (
-    <div className="App">
-     <p>personal website</p>
-    </div>
-  );
+  
+      
+        <h1 className='App'>my resume site</h1>
+    
+  
+  )
 }
 
 export default App;

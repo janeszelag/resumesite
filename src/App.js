@@ -1,17 +1,18 @@
 import React from "react";
-import Menu from "./Menu.js";
+import Menu from "./Menu";
+import Links from "./Links"
+
 import {
   MainContainer,
   StyledDiv1,
   Name,
   StyledDiv2,
   Cactus,
-  LinksDiv,
+
   MenuDiv,
   CactusTooltip
+ 
 } from "./styles/App";
-
-
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
         </CactusTooltip>
       </StyledDiv1>
       <StyledDiv2>
-        <LinksDiv></LinksDiv>
+        <Links/>
         <MenuDiv>
           <Menu />
         </MenuDiv>

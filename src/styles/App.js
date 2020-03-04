@@ -1,6 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 import Tooltip from "@material-ui/core/Tooltip";
 import { withStyles } from "@material-ui/core/styles";
+
 
 export const MainContainer = styled.div`
   display: grid;
@@ -37,8 +38,8 @@ export const Name = styled.h1`
 `;
 
 export const StyledDiv2 = styled.div`
-background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-display: flex;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
@@ -48,10 +49,16 @@ display: flex;
 export const Cactus = styled.img`
   width: 12vh;
   height: 20vh;
- 
+
   transition: transform 1000ms ease-in-out;
+
+  @media (max-width: 768px) {
+    width: 6vh;
+    height: 14vh;
+  }
+
   &:hover {
-    transform: translate(0, -15px) 
+    transform: translate(0, -15px);
   }
 `;
 
@@ -66,6 +73,6 @@ export const CactusTooltip = withStyles(theme => ({
 }))(Tooltip);
 
 
-export const LinksDiv = styled.div``;
-
-export const MenuDiv = styled.div``;
+export const MenuDiv = styled.div`
+height: 80%;
+`;

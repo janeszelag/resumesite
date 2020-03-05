@@ -1,16 +1,16 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Grow from "@material-ui/core/Grow";
+import Zoom from '@material-ui/core/Zoom';
 
 import { StyledPaper, Title, Base, StyledCharlie } from "./styles/Menu";
 
 export default function MainGrid(props) {
   return (
 
-    <Grow
+    <Zoom
     in={props.mode}
-    style={{ transformOrigin: "0 0 0" }}
-    {...(props.mode ? { timeout: 1000 } : {})}
+    
   >
 <Grid container spacing={1}>
       <Grid item xs={12} sm={12}>
@@ -56,7 +56,7 @@ export default function MainGrid(props) {
         </Base>
       </Grid>
     </Grid>
-  </Grow>
+  </Zoom>
 
     
   );

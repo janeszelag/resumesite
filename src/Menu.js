@@ -1,13 +1,30 @@
 import React from "react";
-
+import MainGrid from "./MainGrid";
+import useVisualMode from "./hooks/useVisualMode";
+import Bio from "./Bio";
+import Charlie from "./Charlie";
+import Projects from "./Projects";
+import Skills from "./Skills";
+import Education from "./Education";
 
 export default function Menu() {
-  return (
+  const MENU = "MENU";
+  const BIO = "BIO";
+  const CHARLIE = "CHARLIE";
+  const PROJECTS = "PROJECTS";
+  const SKILLS = "SKILLS";
+  const EDUCATION = "EDUCATION";
 
-    <p>something
-      talk about myself, future goal to work on technologies related to physical and mental health, wellness and emotioal intelligence
-      links, projects, skills, experience ( I am an educator, I have a background in biological research), emoji heart -> pics of stuff I like, charlie would be cool to be random each time
-    </p>
-  
-  )
+  const { mode, transition } = useVisualMode(MENU);
+
+  return (
+    <article>
+      {mode === MENU && <MainGrid mode={mode} transition={transition} />}
+      {mode === BIO && <Bio mode={mode} transition={transition} />}
+      {mode === CHARLIE && <Charlie mode={mode} transition={transition} />}
+      {mode === PROJECTS && <Projects mode={mode} transition={transition} />}
+      {mode === SKILLS && <Skills mode={mode} transition={transition} />}
+      {mode === EDUCATION && <Education mode={mode} transition={transition} />}
+    </article>
+  );
 }

@@ -7,10 +7,10 @@ export const MainContainer = styled.div`
   display: grid;
   grid-template-rows: 1fr 2fr;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   @media (max-width: 768px) {
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 3fr;
   }
 `;
 
@@ -50,7 +50,7 @@ export const Cactus = styled.img`
   width: 12vh;
   height: 20vh;
 
-  transition: transform 1000ms ease-in-out;
+ 
 
   @media (max-width: 768px) {
     width: 6vh;
@@ -58,7 +58,7 @@ export const Cactus = styled.img`
   }
 
   &:hover {
-    transform: translate(0, -15px);
+    transform: translateY(-2px);
   }
 `;
 
@@ -74,5 +74,11 @@ export const CactusTooltip = withStyles(theme => ({
 
 
 export const MenuDiv = styled.div`
-height: 80%;
+height: 70%;
+width: 80%;
+
+@media (max-width: 768px) {
+  height: 85%;
+}
+
 `;

@@ -1,6 +1,6 @@
 import React from "react";
 import Menu from "./Menu";
-import Links from "./Links"
+import Links from "./Links";
 
 import {
   MainContainer,
@@ -8,10 +8,8 @@ import {
   Name,
   StyledDiv2,
   Cactus,
-
   MenuDiv,
   CactusTooltip
- 
 } from "./styles/App";
 
 function App() {
@@ -27,7 +25,7 @@ function App() {
         </CactusTooltip>
       </StyledDiv1>
       <StyledDiv2>
-        <Links/>
+        <Links />
         <MenuDiv>
           <Menu />
         </MenuDiv>

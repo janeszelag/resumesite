@@ -3,12 +3,17 @@ import styled from "styled-components";
 
 
 const LinksDiv = styled.div`
-height: 20%;
+height: 30%;
 display: flex;
 flex-direction: row;
-flex-wrap: wrap;
+
 justify-content: center;
 align-items: center;
+
+@media (max-width: 768px) {
+  height: 15%;
+}
+
 
 `;
 const LinkImg = styled.img`

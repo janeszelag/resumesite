@@ -6,16 +6,21 @@ export const StyledPaper = styled(Paper)`
 width: 100%;
 height: 100%;
 background-color: #faf9f8;
-padding: 2em;
+padding: 3em;
+
+
+
 &:hover {
   transform: translateY(-4px);
 }
 `;
-export const Title = styled.h2`
-color: #353336;
+export const Title = styled.h1`
+color: #000000;
+font-family: "Advent Pro";
+font-weight: 400;
 font-size: 4em;
 text-align: center;
-font-weight: 300;
+
 margin: 0em;
 @media (max-width: 768px) {
   font-size: 3em;

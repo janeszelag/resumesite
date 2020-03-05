@@ -7,6 +7,9 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Education from "./Education";
 
+
+import { OuterDiv } from "./styles/App"
+
 export default function Menu() {
   const MENU = "MENU";
   const BIO = "BIO";
@@ -17,14 +20,18 @@ export default function Menu() {
 
   const { mode, transition } = useVisualMode(MENU);
 
+
   return (
-    <article>
+    <OuterDiv>
       {mode === MENU && <MainGrid mode={mode} transition={transition} />}
       {mode === BIO && <Bio mode={mode} transition={transition} />}
       {mode === CHARLIE && <Charlie mode={mode} transition={transition} />}
       {mode === PROJECTS && <Projects mode={mode} transition={transition} />}
       {mode === SKILLS && <Skills mode={mode} transition={transition} />}
       {mode === EDUCATION && <Education mode={mode} transition={transition} />}
-    </article>
+
+    </OuterDiv>
+   
+
   );
 }

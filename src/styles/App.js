@@ -22,7 +22,7 @@ export const StyledDiv1 = styled.div`
   align-items: center;
   background-color: #faf9f8;
   border: solid;
-  border-color: #e0e3cf;
+  border-color: #d8d2cb;
   border-width: 3px;
 `;
 
@@ -33,7 +33,7 @@ export const Name = styled.h1`
   font-weight: 300;
   margin: 0em;
   @media (max-width: 768px) {
-    font-size: 3em;
+    font-size: 4em;
   }
 `;
 
@@ -53,7 +53,7 @@ export const Cactus = styled.img`
  
 
   @media (max-width: 768px) {
-    width: 6vh;
+    width: 9vh;
     height: 14vh;
   }
 

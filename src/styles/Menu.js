@@ -5,7 +5,7 @@ import ButtonBase from "@material-ui/core/ButtonBase";
 export const StyledPaper = styled(Paper)`
 width: 100%;
 height: 100%;
-background-color: #ffffff;
+background-color: #faf9f8;
 padding: 2em;
 &:hover {
   transform: translateY(-4px);

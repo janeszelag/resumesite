@@ -17,8 +17,8 @@ align-items: center;
 
 `;
 const LinkImg = styled.img`
-width: 6vh;
-height: 6vh;
+width: 5vh;
+height: 5vh;
 margin-left: 1em;
 @media (max-width: 768px) {
   width: 4vh;

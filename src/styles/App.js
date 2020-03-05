@@ -20,7 +20,7 @@ export const StyledDiv1 = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #faf9f8;
   border: solid;
   border-color: #e0e3cf;
   border-width: 3px;
@@ -64,7 +64,7 @@ export const Cactus = styled.img`
 
 export const CactusTooltip = withStyles(theme => ({
   tooltip: {
-    backgroundColor: "#e0e3cf",
+    backgroundColor: "#d8d2cb",
     color: "#353336",
     maxWidth: 420,
     fontSize: theme.typography.pxToRem(22),

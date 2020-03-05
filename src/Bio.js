@@ -15,7 +15,7 @@ const MainDiv = styled.div`
 const StyledPaper = styled(Paper)`
   width: 80%;
   height: 80%;
-  background-color: #ffffff;
+  background-color: #faf9f8;
   display: flex;
   flex-direction: column;
   justify-content: center;

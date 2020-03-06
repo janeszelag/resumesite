@@ -18,6 +18,8 @@ const StyledButton = styled(Button)`
 const BackImg = styled.img`
   height: 8vh;
   width: 8vh;
+  margin-bottom: 2em;
+
 
   @media (max-width: 768px) {
     height: 6vh;

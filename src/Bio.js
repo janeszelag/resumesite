@@ -67,7 +67,7 @@ export default function Bio(props) {
                 developed solely through word-of-mouth referrals and reviews.
                 <br />
                 <br />
-                <strong>learning specilist, 2018 – 2019</strong> <br />
+                <strong>learning specialist, 2018 – 2019</strong> <br />
                 <strong>Ruth Rumack's Learning Space</strong> <br />
                 Taught 20+ secondary students, majority of whom possessed some
                 form of learning difference or exceptionality. Applied

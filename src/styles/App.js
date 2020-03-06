@@ -33,7 +33,7 @@ export const Name = styled.h1`
 export const StyledDiv2 = styled.div`
   width: 100%;
   margin-top: 2em;
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

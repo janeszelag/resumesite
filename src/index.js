@@ -18,7 +18,8 @@ const theme = createMuiTheme({
       fontSize: "1rem"
     },
     background: {
-      default: "#353336"
+      default: "#A6B07E"
+      
     }
   },
   typography: {

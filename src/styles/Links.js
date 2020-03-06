@@ -15,8 +15,8 @@ export const LinksDiv = styled.div`
 `;
 
 export const LinkImg = styled.img`
-  width: 5vh;
-  height: 5vh;
+  width: 7vh;
+  height: 7vh;
   margin-left: 0em;
   @media (max-width: 768px) {
     width: 4vh;

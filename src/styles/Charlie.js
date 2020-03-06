@@ -2,7 +2,7 @@ import Card from "@material-ui/core/Card";
 import styled from "styled-components";
 
 export const StyledCard = styled(Card)`
-  background-color: #89B68F;
+  background-color: #E1E6D1;
   background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;

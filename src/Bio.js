@@ -17,6 +17,7 @@ export default function Bio(props) {
       <Zoom in={true}>
         <StyledPaper>
           <StyledAvatar
+          
             alt="Katherine Szelag"
             src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583284463/me_ppljqf.png"
           />
@@ -27,7 +28,7 @@ export default function Bio(props) {
                 <strong>I am....</strong> a full stack developer located in Toronto, open to and seeking
                 opportunities. A recent graduate of the Lighthouse Labs Web
                 Development bootcamp, my enthusiam for creative problem-solving
-                and love for all things STEM have lead me to a new career in software
+                and love for all things STEM has lead me to a new career in software
                 development👩🏼‍💻.
                 <br />
                 <br />

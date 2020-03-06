@@ -28,7 +28,7 @@ export default function Charlie(props) {
           <CharlieDiv>
           <Grid container spacing={1}>
           <Grid item xs={12} sm={4}>
-            <StyledCard>
+            <StyledCard elevation={10}>
               <CardContent>
                 <StyledCharliePic alt="charlie" src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583447551/746D92A2-831D-46A8-A194-99EAE40BF631_gn9snn.jpg" />
               </CardContent>
@@ -36,7 +36,7 @@ export default function Charlie(props) {
             </StyledCard>
           </Grid>
           <Grid item xs={12} sm={4}>
-            <StyledCard>
+            <StyledCard elevation={10}>
               <CardContent>
                 <StyledCharliePic alt="charlie" src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583447562/IMG_3028_garhxl.jpg" />
               </CardContent>
@@ -44,7 +44,7 @@ export default function Charlie(props) {
             </StyledCard>
           </Grid>
           <Grid item xs={12} sm={4}>
-            <StyledCard>
+            <StyledCard elevation={10}>
               <CardContent>
                 <StyledCharliePic alt="charlie" src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583447573/IMG_3891_ti6zxq.jpg" />
               </CardContent>

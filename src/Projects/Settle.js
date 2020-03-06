@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectPaper, TextDiv, ProjectTitle, ProjectImg, ProjectText} from "../styles/Projects"
+import { ProjectPaper, TextDiv, ProjectTitle, ProjectImg, ProjectText, ImageDiv} from "../styles/Projects"
 import { LinksDiv, LinkImg, LinkImgMiddle } from "../styles/Links";
 export default function Settle() {
 
@@ -31,10 +31,18 @@ export default function Settle() {
           />
         </a>
       </LinksDiv>
+      <ImageDiv>
       <ProjectImg
         alt="settle"
         src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583451000/Screen_Shot_2020-03-05_at_6.29.19_PM_tnhxeo.png"
       />
+      <ProjectImg
+        alt="settle"
+        src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583455494/Screen_Shot_2020-03-05_at_7.43.34_PM_nsx6cj.png"
+      />
+
+      </ImageDiv>
+     
       <ProjectText>
         <strong>ABOUT:</strong> Settle is a wellness application that
         aims to help secondary-students manage and cope with the
@@ -42,7 +50,7 @@ export default function Settle() {
         practice of mindfulness, while also empowering them with the
         tools and knowledge they need to modify the dysfunctional
         patterns of thinking associated with anxiety. User activity is
-        saved and analyzed in order track/display progress.
+        saved and analyzed in order track/display progress.🌵
         <br />
         <strong>TECH STACK:</strong> React, React Router, Rails API,
         Axios, Styled-components, Material-UI, ApexCharts, JWT

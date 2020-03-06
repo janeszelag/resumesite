@@ -4,6 +4,8 @@ import Zoom from "@material-ui/core/Zoom";
 import UpButton from "./Buttons/UpButton";
 import { MainDiv, StyledPaper, ItalicText } from "./styles/ContentPages";
 import Settle from "./Projects/Settle"
+import Tweeter from "./Projects/Tweeter"
+import Scheduler from "./Projects/Scheduler"
 import { GreenHyperlink } from "./styles/Projects"
 
 
@@ -14,8 +16,7 @@ export default function Bio(props) {
       <BackButton onClick={() => props.transition("MENU")} />
       <Zoom in={true}>
         <StyledPaper>
-          <Settle/>
-          <ItalicText>
+        <ItalicText>
             The git repository for this website can be found{" "}
             <GreenHyperlink
               href="https://github.com/janeszelag/resumesite"
@@ -25,6 +26,9 @@ export default function Bio(props) {
               here.
             </GreenHyperlink>
           </ItalicText>
+          <Settle/>
+          <Scheduler/>
+          <Tweeter/>
           <UpButton onClick={() => props.scrollUp()} />
         </StyledPaper>
       </Zoom>

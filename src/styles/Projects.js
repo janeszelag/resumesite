@@ -8,7 +8,7 @@ export const GreenHyperlink = styled.a`
 
 export const ProjectPaper = styled(Paper)`
   width: 90%;
-  margin-top: 3em;
+  margin-top: 2em;
   background-color: #faf9f8;
   display: flex;
   flex-direction: column;
@@ -41,6 +41,7 @@ export const ProjectImg = styled.img`
   width: 48vh;
   border-radius: 2%;
   margin-bottom: 1em;
+  margin-right: 1em;
 
   @media (max-width: 768px) {
     height: 20vh;
@@ -59,3 +60,12 @@ export const ProjectText = styled.p`
     font-size: 1em;
   }
 `;
+
+export const ImageDiv = styled.div`
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+`

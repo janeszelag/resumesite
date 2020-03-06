@@ -1,6 +1,6 @@
 import React from "react";
-import { ProjectPaper, TextDiv, ProjectTitle, ProjectImg, ProjectText} from "../styles/Projects"
-import { LinksDiv, LinkImg, LinkImgMiddle } from "../styles/Links";
+import { ProjectPaper, TextDiv, ProjectTitle, ProjectImg, ProjectText, ImageDiv} from "../styles/Projects"
+import { LinksDiv, LinkImg} from "../styles/Links";
 
 export default function Scheduler() {
 
@@ -8,10 +8,10 @@ export default function Scheduler() {
   return (
     <ProjectPaper elevation={12}>
     <TextDiv>
-      <ProjectTitle>SETTLE</ProjectTitle>
+      <ProjectTitle>SCHEDULER</ProjectTitle>
       <LinksDiv>
         <a
-          href="https://github.com/claraisley/settle"
+          href="https://github.com/janeszelag/scheduler"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -20,33 +20,22 @@ export default function Scheduler() {
             src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583453196/github_1_rjvdqr.svg"
           />
         </a>
-
-        <a
-          href="https://settle.netlify.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <LinkImgMiddle
-            alt="homepage"
-            src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583453208/home-run_rzsi7x.svg"
-          />
-        </a>
       </LinksDiv>
+      <ImageDiv>
       <ProjectImg
-        alt="settle"
-        src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583451000/Screen_Shot_2020-03-05_at_6.29.19_PM_tnhxeo.png"
+        alt="scheduler"
+        src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583456188/interview-hover_whczjj.png"
       />
+       <ProjectImg
+        alt="scheduler"
+        src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583456179/delete-confirmation_ntxqtd.png"
+      />
+      </ImageDiv>
+
       <ProjectText>
-        <strong>ABOUT:</strong> Settle is a wellness application that
-        aims to help secondary-students manage and cope with the
-        symptoms of Test Anxiety. Settle introduces teens to the
-        practice of mindfulness, while also empowering them with the
-        tools and knowledge they need to modify the dysfunctional
-        patterns of thinking associated with anxiety. User activity is
-        saved and analyzed in order track/display progress.
+        <strong>ABOUT:</strong> Responsive, single page React application that allows users to book and cancel interviews.📆 Tested using both Jest and Cypress🤓. 
         <br />
-        <strong>TECH STACK:</strong> React, React Router, Rails API,
-        Axios, Styled-components, Material-UI, ApexCharts, JWT
+        <strong>TECH STACK:</strong> ReactWebpack, Babel, Axios, Storybook, Webpack Dev Server, Jest, Testing Library, Cypress
       </ProjectText>
     </TextDiv>
   </ProjectPaper>

@@ -52,6 +52,7 @@ export default function Settle() {
         patterns of thinking associated with anxiety. User activity is
         saved and analyzed in order track/display progress.🌵
         <br />
+        <br />
         <strong>TECH STACK:</strong> React, React Router, Rails API,
         Axios, Styled-components, Material-UI, ApexCharts, JWT
       </ProjectText>

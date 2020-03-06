@@ -4,6 +4,7 @@ import Paper from "@material-ui/core/Paper";
 
 export const GreenHyperlink = styled.a`
   color: #6e7c5e;
+
 `;
 
 export const ProjectPaper = styled(Paper)`
@@ -15,10 +16,6 @@ export const ProjectPaper = styled(Paper)`
   justify-content: center;
   align-items: center;
   margin-bottom: 1em;
-  &:hover {
-   
-    box-shadow: 10px 10px 5px grey;
-  }
 `;
 
 export const TextDiv = styled.div`
@@ -51,19 +48,48 @@ export const ProjectImg = styled.img`
     height: 20vh;
     width: 30vh;
   }
+  &:hover {
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 10px 10px 5px grey;
+    }
+  }
 `;
 
 export const ProjectText = styled.p`
   color: #353336;
   font-size: 2em;
-
-  font-weight: 300;
+  font-family: "Poppins";
+  font-weight: 400;
+  margin: 1em;
+  margin-top: 1em;
+  @media (max-width: 768px) {
+    font-size: 1em;
+  }
+`;
+export const BioText = styled.p`
+color: #000000;
+  font-size: 2em;
+  font-family: "Poppins";
+  font-weight: 400;
   margin: 1em;
   margin-top: 0em;
   @media (max-width: 768px) {
     font-size: 1em;
   }
 `;
+export const EducationText = styled.p`
+  color: #353336;
+  font-size: 2em;
+  font-family: "Poppins";
+  font-weight: 400;
+  margin: 1em;
+  margin-top: 0em;
+  @media (max-width: 768px) {
+    font-size: 1em;
+  }
+`;
+
 
 export const ImageDiv = styled.div`
 display: flex;

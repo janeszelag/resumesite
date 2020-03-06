@@ -35,6 +35,7 @@ export default function Scheduler() {
       <ProjectText>
         <strong>ABOUT:</strong> Responsive, single page React application that allows users to book and cancel interviews.📆 Tested using both Jest and Cypress🤓. 
         <br />
+        <br />
         <strong>TECH STACK:</strong> ReactWebpack, Babel, Axios, Storybook, Webpack Dev Server, Jest, Testing Library, Cypress
       </ProjectText>
     </TextDiv>

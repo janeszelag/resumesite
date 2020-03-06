@@ -35,6 +35,7 @@ export default function Tweeter() {
       <ProjectText>
         <strong>ABOUT:</strong> A responsive, single page clone of Twitter. 
         <br />
+        <br />
         <strong>TECH STACK:</strong> jQuery, AJAX, Node, Express, MongoDB
       </ProjectText>
     </TextDiv>

@@ -1,9 +1,14 @@
 import React from "react";
 import BackButton from "./Buttons/BackButton";
 import Zoom from "@material-ui/core/Zoom";
-import UpButton from "./Buttons/UpButton"
-import { MainDiv, StyledPaper, Text} from "./styles/ContentPages"
-
+import UpButton from "./Buttons/UpButton";
+import { MainDiv, StyledPaper } from "./styles/ContentPages";
+import {
+  ProjectPaper,
+  TextDiv,
+  ProjectTitle,
+  EducationText
+} from "./styles/Projects";
 
 export default function Bio(props) {
   return (
@@ -11,29 +16,46 @@ export default function Bio(props) {
       <BackButton onClick={() => props.transition("MENU")} />
       <Zoom in={true}>
         <StyledPaper>
-          <Text>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC. This book is a
-            treatise on the theory of ethics, very popular during the
-            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-            amet..", comes from a line in section 1.10.32. The standard chunk of
-            Lorem Ipsum used since the 1500s is reproduced below for those
-            interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
-            Malorum" by Cicero are also reproduced in their exact original form,
-            accompanied by English versions from the 1914 translation by H.
-            Rackham.
-          </Text>
-          <UpButton onClick={() => props.scrollUp()}/>
+          <ProjectPaper elevation={12}>
+            <TextDiv>
+              <ProjectTitle>EDUCATION</ProjectTitle>
+              <EducationText>
+                <strong>Diploma: Full Stack Web Development</strong> <br />
+                <strong> LIGHTHOUSE LABS </strong><br />
+                Graduated in February 2020
+                <br />
+                <br/>
+                <strong>
+                  Master of Science (MSc) in Reproductive Physiology
+                </strong>{" "}
+                <br />
+                <strong>University of Toronto</strong> <br />
+                Graduated in 2018 <br />
+                Research-based degree, Thesis Title: Role of Acid
+                Sphingomyelinase in Murine Placentation <br />
+                Ontario Student Opportunity Trust Funds (OSOTF) Award; 2014-15{" "}
+                <br />
+                
+                <br/>
+                <strong>Honours Bachelor of Science (BSc)</strong> <br />
+                <strong>University of Toronto</strong> 
+                <br />
+                Graduated in 2013 <br />
+                Major: Cell and Molecular Biology, Major: Immunology University
+                of Toronto <br />
+                Dean’s List graduate; Recognition of Exceptional Academic Achievement: High Distinction 
+                <br />
+                University of Toronto Excellence Awards (UTEA); 2012 
+                <br />
+                Trinity College Admission Scholarship; 2009 
+                <br />
+                
+              </EducationText>
+            </TextDiv>
+          </ProjectPaper>
+          <UpButton onClick={() => props.scrollUp()} />
         </StyledPaper>
       </Zoom>
-      
     </MainDiv>
   );
 }

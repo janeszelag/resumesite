@@ -45,8 +45,8 @@ export const ProjectImg = styled.img`
   margin-right: 1em;
 
   @media (max-width: 768px) {
-    height: 20vh;
-    width: 30vh;
+    height: 24vh;
+    width: 36vh;
   }
   &:hover {
     &:hover {

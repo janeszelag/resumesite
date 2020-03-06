@@ -47,6 +47,6 @@ export const StyledDiv2 = styled.div`
 export const OuterDiv = styled.div`
 width 70%;
 @media (max-width: 768px) {
-  width 80%;
+  width 90%;
 }
 `;

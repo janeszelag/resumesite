@@ -19,6 +19,7 @@ export const StyledPaper = styled(Paper)`
   justify-content: center;
   align-items: center;
   margin-bottom: 3em;
+  margin-top: 2em;
 `;
 
 export const Text = styled.p`

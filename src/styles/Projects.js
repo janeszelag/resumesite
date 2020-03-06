@@ -58,7 +58,7 @@ export const ProjectImg = styled.img`
 
 export const ProjectText = styled.p`
   color: #353336;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Poppins";
   font-weight: 400;
   margin: 1em;
@@ -69,7 +69,7 @@ export const ProjectText = styled.p`
 `;
 export const BioText = styled.p`
 color: #000000;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Poppins";
   font-weight: 400;
   margin: 1em;
@@ -80,7 +80,7 @@ color: #000000;
 `;
 export const EducationText = styled.p`
   color: #353336;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Poppins";
   font-weight: 400;
   margin: 1em;

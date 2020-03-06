@@ -34,7 +34,7 @@ export const Text = styled.p`
 
 export const ItalicText = styled(Text)`
 font-size: 1.5em;
-font-style: italic;
+
 @media (max-width: 768px) {
   font-size: 0.75em;
 }

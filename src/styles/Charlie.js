@@ -2,7 +2,7 @@ import Card from "@material-ui/core/Card";
 import styled from "styled-components";
 
 export const StyledCard = styled(Card)`
-  background-color: #c3cbbb;
+  background-color: #d7dcd0;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   width: 100%;

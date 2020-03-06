@@ -17,14 +17,14 @@ export default function Bio(props) {
       <Zoom in={true}>
         <StyledPaper>
         <ItalicText>
-            The git repository for this website can be found{" "}
+            Techinically, this website was itself a project🧐. The git repository for this website can be found{" "}
             <GreenHyperlink
               href="https://github.com/janeszelag/resumesite"
               target="_blank"
               rel="noopener noreferrer"
             >
               here.
-            </GreenHyperlink>
+            </GreenHyperlink>🤓
           </ItalicText>
           <Settle/>
           <Scheduler/>

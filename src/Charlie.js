@@ -23,7 +23,7 @@ export default function Charlie(props) {
       <Zoom in={true}>
         <StyledPaper>
           <Text>
-            This page is in fact just a shameless tribute to Charlie the Golden Doodle 🤷🏼‍♀️🧡 
+            This page is in fact a shameless tribute to Charlie the Golden Doodle 🤷🏼‍♀️🧡 
           </Text>
           <CharlieDiv>
           <Grid container spacing={1}>

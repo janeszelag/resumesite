@@ -3,8 +3,8 @@ import styled from "styled-components";
 import Button from "@material-ui/core/Button";
 
 const StyledButton = styled(Button)`
-  height: 8vh;
-  width: 8vh;
+  height: 10vh;
+  width: 10vh;
   
 
   @media (max-width: 768px) {

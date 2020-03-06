@@ -12,6 +12,7 @@ padding: 3em;
 
 &:hover {
   transform: translateY(-4px);
+  box-shadow: 6px 6px 2px black;
 }
 `;
 export const Title = styled.h1`

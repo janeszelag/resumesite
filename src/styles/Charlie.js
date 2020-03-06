@@ -25,6 +25,7 @@ height: 39vh;
   }
   &:hover {
     transform: translateY(-4px);
+    box-shadow: 10px 10px 5px grey;
   }
 `
 

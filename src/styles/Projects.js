@@ -15,6 +15,10 @@ export const ProjectPaper = styled(Paper)`
   justify-content: center;
   align-items: center;
   margin-bottom: 1em;
+  &:hover {
+   
+    box-shadow: 10px 10px 5px grey;
+  }
 `;
 
 export const TextDiv = styled.div`

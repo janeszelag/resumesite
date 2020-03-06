@@ -20,15 +20,19 @@ export default function Menu() {
 
   const { mode, transition } = useVisualMode(MENU);
 
+  const scrollUp = () => {
+    window.scrollTo(0, 0);
+  }
+
 
   return (
     <OuterDiv>
       {mode === MENU && <MainGrid mode={mode} transition={transition} />}
-      {mode === BIO && <Bio mode={mode} transition={transition} />}
-      {mode === CHARLIE && <Charlie mode={mode} transition={transition} />}
-      {mode === PROJECTS && <Projects mode={mode} transition={transition} />}
-      {mode === SKILLS && <Skills mode={mode} transition={transition} />}
-      {mode === EDUCATION && <Education mode={mode} transition={transition} />}
+      {mode === BIO && <Bio mode={mode} transition={transition} scrollUp={scrollUp}/>}
+      {mode === CHARLIE && <Charlie mode={mode} transition={transition} scrollUp={scrollUp} />}
+      {mode === PROJECTS && <Projects mode={mode} transition={transition} scrollUp={scrollUp}/>}
+      {mode === SKILLS && <Skills mode={mode} transition={transition} scrollUp={scrollUp} />}
+      {mode === EDUCATION && <Education mode={mode} transition={transition} scrollUp={scrollUp} />}
 
     </OuterDiv>
    

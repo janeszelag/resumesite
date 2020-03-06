@@ -1,15 +1,33 @@
 import React from "react";
-import Grid from '@material-ui/core/Grid';
-import styled from "styled-components";
-import Paper from '@material-ui/core/Paper';
+import BackButton from "./Buttons/BackButton";
+import Zoom from "@material-ui/core/Zoom";
+import UpButton from "./Buttons/UpButton";
+import { MainDiv, StyledPaper, ItalicText } from "./styles/ContentPages";
+import Settle from "./Projects/Settle"
+import { GreenHyperlink } from "./styles/Projects"
 
 
 
-export default function Projects() {
+export default function Bio(props) {
   return (
-    <Paper>bio will go here</Paper>
-
-    
-  
-  )
+    <MainDiv>
+      <BackButton onClick={() => props.transition("MENU")} />
+      <Zoom in={true}>
+        <StyledPaper>
+          <Settle/>
+          <ItalicText>
+            The git repository for this website can be found{" "}
+            <GreenHyperlink
+              href="https://github.com/janeszelag/resumesite"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here.
+            </GreenHyperlink>
+          </ItalicText>
+          <UpButton onClick={() => props.scrollUp()} />
+        </StyledPaper>
+      </Zoom>
+    </MainDiv>
+  );
 }

@@ -1,54 +1,15 @@
-import React, { useState } from "react";
-import styled from "styled-components";
-import Paper from "@material-ui/core/Paper";
-import Avatar from "@material-ui/core/Avatar";
-import BackButton from "./styles/BackButton";
+import React from "react";
+import BackButton from "./Buttons/BackButton";
 import Zoom from "@material-ui/core/Zoom";
+import UpButton from "./Buttons/UpButton"
+import { MainDiv, StyledPaper, Text, StyledAvatar } from "./styles/ContentPages"
 
-const MainDiv = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
 
-const StyledPaper = styled(Paper)`
-  width: 100%;
-  height: 100%;
-  background-color: #faf9f8;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 3em;
-`;
-
-const Text = styled.p`
-  color: #353336;
-  font-size: 2em;
-  text-align: center;
-  font-weight: 300;
-  margin: 1em;
-  @media (max-width: 768px) {
-    font-size: 1em;
-  }
-`;
-
-const StyledAvatar = styled(Avatar)`
-  margin-top: 1em;
-  height: 22vh;
-  width: 22vh;
-
-  @media (max-width: 768px) {
-    height: 16vh;
-    width: 16vh;
-  }
-`;
 export default function Bio(props) {
   return (
     <MainDiv>
       <BackButton onClick={() => props.transition("MENU")} />
-      <Zoom in={props.mode}>
+      <Zoom in={true}>
         <StyledPaper>
           <StyledAvatar
             alt="Katherine Szelag"
@@ -73,8 +34,10 @@ export default function Bio(props) {
             accompanied by English versions from the 1914 translation by H.
             Rackham.
           </Text>
+          <UpButton onClick={() => props.scrollUp()}/>
         </StyledPaper>
       </Zoom>
+      
     </MainDiv>
   );
 }

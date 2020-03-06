@@ -28,17 +28,7 @@ export const LinkImg = styled.img`
   }
 `;
 
-export const LinkImgMiddle = styled.img`
-  width: 5vh;
-  height: 5vh;
+export const LinkImgMiddle = styled(LinkImg)`
   margin-left: 0.75em;
   margin-right: 0.75em;
-  @media (max-width: 768px) {
-    width: 4vh;
-    height: 4vh;
-  }
-  &:hover {
-    transform: rotate(20deg);
-    cursor: pointer;
-  }
 `;

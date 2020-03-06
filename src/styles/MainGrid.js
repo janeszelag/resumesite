@@ -33,7 +33,7 @@ height: 100%;
 `;
 
 export const StyledCharlie = styled.img`
-width: 7vh;
+width: 6vh;
   height: 7vh;
   margin: 0em;
   @media (max-width: 768px) {

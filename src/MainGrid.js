@@ -7,7 +7,7 @@ import { StyledPaper, Title, Base, StyledCharlie } from "./styles/MainGrid";
 
 export default function MainGrid(props) {
   return (
-    <Zoom in={props.mode}>
+    <Zoom in={true}>
       <Grid container spacing={1}>
         <Grid item xs={12} sm={12}>
           <Base onClick={() => props.transition("PROJECTS")}>

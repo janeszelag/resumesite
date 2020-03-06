@@ -40,8 +40,8 @@ export default function Bio(props) {
                 <strong>I have....</strong> a background in biological research
                 focusing on women's and infant's health. I completed a Master's
                 Degree as a member of the Jurisicova lab in the Lunen-Tanenbaum
-                Research Institute of Mount Sinai Hopstial. My project
-                investigated the role of lipid signallng in placental
+                Research Institute of Mount Sinai Hospital. My project
+                investigated the role of lipid signalling in placental
                 development and function.
                 <br />
                 <br />

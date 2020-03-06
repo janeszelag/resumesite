@@ -5,11 +5,12 @@ import Button from "@material-ui/core/Button";
 const StyledButton = styled(Button)`
   height: 10vh;
   width: 10vh;
+  margin-bottom: 1em;
   
 
   @media (max-width: 768px) {
-    height: 6vh;
-  width: 6vh;
+    height: 8vh;
+  width: 8vh;
   }
   &:hover {
     transform: translateY(-2px);

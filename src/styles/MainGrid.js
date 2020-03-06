@@ -35,7 +35,7 @@ height: 100%;
 
 export const StyledCharlie = styled.img`
 width: 6vh;
-  height: 7vh;
+  height: 6.6vh;
   margin: 0em;
   @media (max-width: 768px) {
     width: 5vh;

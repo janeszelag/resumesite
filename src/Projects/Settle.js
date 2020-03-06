@@ -50,7 +50,7 @@ export default function Settle() {
         practice of mindfulness, while also empowering them with the
         tools and knowledge they need to modify the dysfunctional
         patterns of thinking associated with anxiety. User activity is
-        saved and analyzed in order track/display progress.🌵
+        saved and analyzed in order to track/display progress.🌵
         <br />
         <br />
         <strong>TECH STACK:</strong> React, React Router, Rails API,

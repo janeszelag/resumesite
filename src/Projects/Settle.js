@@ -54,7 +54,7 @@ export default function Settle() {
         <br />
         <br />
         <strong>TECH STACK:</strong> React, React Router, Rails API,
-        Axios, Styled-components, Material-UI, ApexCharts, JWT
+        Axios, Styled-components, Material-UI, ApexCharts, JWT, PostgreSQL
       </ProjectText>
     </TextDiv>
   </ProjectPaper>

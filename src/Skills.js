@@ -21,7 +21,7 @@ export default function Bio(props) {
               <ProjectTitle>TECHNICAL SKILLS</ProjectTitle>
               <ProjectText>
                 <strong>LANGUAGES:</strong> <br/>
-                JavaScript, Ruby, SQL, HTML, CSS
+                JavaScript, Ruby, SQL, HTML, CSS, Python (In progress, BrainStation Data Science Certificate Course)
                 <br />
                 <strong>FRAMEWORKS, LIBRARIES & ENVIRONMENTS:</strong> <br/>
                 NodeJS, React, Rails, Ajax, Express, EJS, jQuery, Bootstrap,

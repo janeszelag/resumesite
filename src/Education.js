@@ -20,6 +20,11 @@ export default function Bio(props) {
             <TextDiv>
               <ProjectTitle>EDUCATION</ProjectTitle>
               <EducationText>
+              <strong>Data Science Certificate (In progress)</strong> <br />
+                <strong> BRAINSTATION </strong><br />
+                Graduate in MAY 2020
+                <br />
+                <br />
                 <strong>Diploma: Full Stack Web Development</strong> <br />
                 <strong> LIGHTHOUSE LABS </strong><br />
                 Graduated in February 2020

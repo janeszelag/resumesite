@@ -28,7 +28,7 @@ export default function Bio(props) {
                 <strong>I am....</strong> a full stack developer located in Toronto, open to and seeking
                 opportunities. A recent graduate of the Lighthouse Labs Web
                 Development bootcamp, my enthusiasm for creative problem-solving
-                and love for all things STEM lead me to a new career in software
+                and love for all things STEM led me to a new career in software
                 development👩🏼‍💻.
                 <br />
                 <br />

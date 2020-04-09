@@ -62,7 +62,7 @@ export const StyledDiv2 = styled.div`
 
 export const LinksDiv = styled.div`
   width: 100%;
-  height: 10vh;
+  height: 9vh;
   display: flex;
   margin-top: 2em;
   background-color: #c7bfb5;

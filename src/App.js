@@ -5,7 +5,8 @@ import Links from "./Links";
 import {
   StyledDiv1,
   Name,
-  StyledDiv2
+  StyledDiv2,
+  MainDiv
 } from "./styles/App";
 
 function App() {

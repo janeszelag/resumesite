@@ -17,7 +17,7 @@ padding: 3em;
 `;
 export const Title = styled.h1`
 color: #000000;
-font-family: "Advent Pro";
+font-family: 'Cantata One', serif;
 font-weight: 400;
 font-size: 4em;
 text-align: center;

@@ -6,24 +6,31 @@ import {
   StyledDiv1,
   Name,
   StyledDiv2,
-  MainDiv
+  MainDiv,
+  StyledDiv3,
+  SideTitle,
+  LinksDiv
 } from "./styles/App";
 
 function App() {
   return (
-    <div>
+    <MainDiv>
       <StyledDiv1>
-        <Name>katherine szelag</Name>
-       
+        <SideTitle src="https://res.cloudinary.com/dpfixnpii/image/upload/v1586468835/RESUME_SITE_6_vcmrck.svg" />
+        <Name>KATHERINE SZELAG</Name>
+        <SideTitle src="https://res.cloudinary.com/dpfixnpii/image/upload/v1586468805/RESUME_SITE_5_dxuqps.svg" />
       </StyledDiv1>
       <StyledDiv2>
+        <LinksDiv>
         <Links />
+        </LinksDiv>
+        
 
-        <Menu />
+      
       </StyledDiv2>
-    </div>
+      <StyledDiv3></StyledDiv3>
+    </MainDiv>
   );
 }
 
 export default App;
-

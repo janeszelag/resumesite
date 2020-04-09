@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const LinksDiv = styled.div`
-  margin-bottom: 2em;
   height: 25%;
   display: flex;
   flex-direction: row;

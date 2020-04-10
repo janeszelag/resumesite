@@ -24,7 +24,7 @@ export default function Bio(props) {
         <StyledPaper>
           <ProjectPaper elevation={12}>
             <TextDiv>
-              <ProjectTitle>bio</ProjectTitle>
+              <ProjectTitle>Bio</ProjectTitle>
               <BioText>
                 <strong>I am....</strong> a full stack developer located in Toronto, open to and seeking
                 opportunities. A recent graduate of the Lighthouse Labs Web

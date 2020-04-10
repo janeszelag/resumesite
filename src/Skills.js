@@ -23,7 +23,7 @@ export default function Bio(props) {
         <StyledPaper>
           <ProjectPaper elevation={12}>
             <TextDiv>
-              <ProjectTitle>TECHNICAL SKILLS</ProjectTitle>
+              <ProjectTitle>Technical</ProjectTitle>
               <ProjectText>
                 <strong>LANGUAGES:</strong> <br/>
                 JavaScript, Ruby, SQL, HTML, CSS, Python (In progress, BrainStation Data Science Certificate Course)
@@ -40,7 +40,7 @@ export default function Bio(props) {
           </ProjectPaper>
           <ProjectPaper elevation={12}>
             <TextDiv>
-              <ProjectTitle>NON-TECH SKILLS</ProjectTitle>
+              <ProjectTitle>Non-tech</ProjectTitle>
               <ProjectText>
                 <strong>SPOKEN LANGUAGES:</strong> <br/>
                 English, Polish

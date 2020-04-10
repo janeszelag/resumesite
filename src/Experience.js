@@ -24,7 +24,7 @@ export default function Experience(props) {
         <StyledPaper>
           <ProjectPaper elevation={12}>
             <TextDiv>
-              <ProjectTitle>experience</ProjectTitle>
+              <ProjectTitle>Experience</ProjectTitle>
               <BioText>
                 <strong>
                   private math and science tutoring, 2014 - present{" "}

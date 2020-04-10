@@ -23,7 +23,7 @@ export default function Bio(props) {
         <StyledPaper>
           <ProjectPaper elevation={12}>
             <TextDiv>
-              <ProjectTitle>EDUCATION</ProjectTitle>
+              <ProjectTitle>Education</ProjectTitle>
               <EducationText>
               <strong>Data Science Certificate (In progress)</strong> <br />
                 <strong> BRAINSTATION </strong><br />

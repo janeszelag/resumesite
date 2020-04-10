@@ -162,13 +162,4 @@ export const SideDiv = styled.div`
   }
 `;
 
-export const CharlieImg = styled.img`
-  height: 40vh;
-  width: 80%;
-  margin-bottom: 1em;
-  margin-top: 3em;
 
-  @media (max-width: 900px) {
-    display: none;
-  }
-`;

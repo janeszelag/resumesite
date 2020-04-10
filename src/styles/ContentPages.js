@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Paper from "@material-ui/core/Paper";
+
 
 
 
@@ -23,17 +23,7 @@ export const StyledDiv = styled.div`
   margin-bottom: 3em;
   
 `;
-export const StyledPaper = styled(Paper)`
-  width: 100%;
-  height: 100%;
-  background-color: #faf9f8;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 3em;
-  
-`;
+
 
 export const Text = styled.p`
   color: #353336;
@@ -47,10 +37,5 @@ export const Text = styled.p`
   }
 `;
 
-export const ItalicText = styled(Text)`
-font-size: 1.5em;
 
-@media (max-width: 768px) {
-  font-size: 1em;
-}
-`
+

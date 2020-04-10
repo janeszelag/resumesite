@@ -3,7 +3,7 @@ import BackButton from "./Buttons/BackButton";
 import Zoom from "@material-ui/core/Zoom";
 import UpButton from "./Buttons/UpButton";
 import { useHistory } from "react-router-dom";
-import { MainDiv, StyledPaper } from "./styles/ContentPages";
+import { MainDiv, StyledDiv } from "./styles/ContentPages";
 import {
   ProjectPaper,
   TextDiv,
@@ -21,7 +21,7 @@ export default function Bio(props) {
     <MainDiv>
       <BackButton onClick={() => history.push("/main")} />
       <Zoom in={true}>
-        <StyledPaper>
+        <StyledDiv>
           <ProjectPaper elevation={12}>
             <TextDiv>
               <ProjectTitle>Bio</ProjectTitle>
@@ -69,7 +69,7 @@ export default function Bio(props) {
             </TextDiv>
           </ProjectPaper>
           <UpButton onClick={() => scrollUp()} />
-        </StyledPaper>
+        </StyledDiv>
       </Zoom>
     </MainDiv>
   );

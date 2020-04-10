@@ -12,9 +12,7 @@ const StyledButton = styled(Button)`
     height: 8vh;
   width: 8vh;
   }
-  &:hover {
-    transform: translateY(-2px);
-  }
+  
 `;
 const BackImg = styled.img`
   height: 8vh;
@@ -25,9 +23,7 @@ const BackImg = styled.img`
     height: 6vh;
   width: 6vh;
   }
-  &:hover {
-    transform: translateY(-4px);
-  }
+ 
   
 `;
 

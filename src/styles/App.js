@@ -72,6 +72,7 @@ export const LinksDiv = styled.div`
   height: 9vh;
   display: flex;
   margin-top: 2em;
+  margin-bottom: 2em;
   background-color: #c7bfb5;
   flex-direction: column;
   flex-wrap: wrap;

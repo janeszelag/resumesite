@@ -18,8 +18,8 @@ export const LinkImg = styled.img`
   height: 6vh;
   margin-left: 0em;
   @media (max-width: 768px) {
-    width: 4vh;
-    height: 4vh;
+    width: 5vh;
+    height: 5vh;
   }
   &:hover {
     transform: rotate(20deg);

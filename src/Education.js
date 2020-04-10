@@ -27,7 +27,7 @@ export default function Bio(props) {
               <EducationText>
               <strong>Data Science Certificate (In progress)</strong> <br />
                 <strong> BRAINSTATION </strong><br />
-                Graduate in MAY 2020
+                Graduate in May 2020
                 <br />
                 <br />
                 <strong>Diploma: Full Stack Web Development</strong> <br />

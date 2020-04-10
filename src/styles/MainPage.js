@@ -130,8 +130,8 @@ export const Text = styled.p`
 `;
 
 export const Icon = styled.img`
-  height: 15vh;
-  width: 15vh;
+  height: 12vh;
+  width: 12vh;
 
   @media (max-width: 900px) {
     height: 10vh;

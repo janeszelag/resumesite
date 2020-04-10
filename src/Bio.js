@@ -3,7 +3,7 @@ import BackButton from "./Buttons/BackButton";
 import Zoom from "@material-ui/core/Zoom";
 import UpButton from "./Buttons/UpButton";
 import { useHistory } from "react-router-dom";
-import { MainDiv, StyledPaper, StyledAvatar } from "./styles/ContentPages";
+import { MainDiv, StyledPaper } from "./styles/ContentPages";
 import {
   ProjectPaper,
   TextDiv,
@@ -22,11 +22,6 @@ export default function Bio(props) {
       <BackButton onClick={() => history.push("/main")} />
       <Zoom in={true}>
         <StyledPaper>
-          <StyledAvatar
-          
-            alt="Katherine Szelag"
-            src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583284463/me_ppljqf.png"
-          />
           <ProjectPaper elevation={12}>
             <TextDiv>
               <ProjectTitle>bio</ProjectTitle>

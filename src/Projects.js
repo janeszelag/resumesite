@@ -2,7 +2,7 @@ import React from "react";
 import BackButton from "./Buttons/BackButton";
 import Zoom from "@material-ui/core/Zoom";
 import UpButton from "./Buttons/UpButton";
-import { MainDiv, StyledPaper, ItalicText } from "./styles/ContentPages";
+import { MainDiv, StyledDiv} from "./styles/ContentPages";
 import Settle from "./Projects/Settle"
 import Tweeter from "./Projects/Tweeter"
 import Scheduler from "./Projects/Scheduler"
@@ -19,12 +19,16 @@ export default function Bio(props) {
     <MainDiv>
       <BackButton onClick={() => history.push("/main")} />
       <Zoom in={true}>
-        <StyledPaper>
-          <Settle/>
+        <StyledDiv>
+        <Settle/>
           <Scheduler/>
           <Tweeter/>
           <UpButton onClick={() => scrollUp()} />
-        </StyledPaper>
+        </StyledDiv>
+        
+        
+         
+       
       </Zoom>
     </MainDiv>
   );

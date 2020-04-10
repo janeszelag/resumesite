@@ -5,6 +5,7 @@ import Bio from "./Bio";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Education from "./Education";
+import ScrollToTop from "./ScrollToTop";
 
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 
@@ -60,6 +61,7 @@ function App() {
   return (
     <MainDiv>
       <Router>
+      <ScrollToTop />
       <StyledDiv1>
         <SideTitle src="https://res.cloudinary.com/dpfixnpii/image/upload/v1586468835/RESUME_SITE_6_vcmrck.svg" />
         <Name>KATHERINE SZELAG</Name>

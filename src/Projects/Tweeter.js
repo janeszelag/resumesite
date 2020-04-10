@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectPaper, TextDiv, ProjectTitle, ProjectImg, ProjectText, ImageDiv} from "../styles/Projects"
+import { ProjectPaper, TextDiv, ProjectTitle, ProjectImg, ProjectText, ImageDiv, StyledHref} from "../styles/Projects"
 import { LinksDiv, LinkImg } from "../styles/Links";
 
 export default function Tweeter() {
@@ -8,7 +8,11 @@ export default function Tweeter() {
   return (
     <ProjectPaper elevation={12}>
     <TextDiv>
+    <StyledHref href="https://github.com/janeszelag/tweeter"
+                target="_blank"
+                rel="noopener noreferrer">>
       <ProjectTitle>TWEETER</ProjectTitle>
+      </StyledHref>
       <LinksDiv>
         <a
           href="https://github.com/janeszelag/tweeter"

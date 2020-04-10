@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectPaper, TextDiv, ProjectTitle, ProjectImg, ProjectText, ImageDiv} from "../styles/Projects"
+import { ProjectPaper, TextDiv, ProjectTitle, ProjectImg, ProjectText, ImageDiv, StyledHref} from "../styles/Projects"
 import { LinksDiv, LinkImg, LinkImgMiddle } from "../styles/Links";
 export default function Settle() {
 
@@ -7,7 +7,12 @@ export default function Settle() {
   return (
     <ProjectPaper elevation={12}>
     <TextDiv>
+      <StyledHref href="https://github.com/claraisley/settle"
+                target="_blank"
+                rel="noopener noreferrer">>
       <ProjectTitle>SETTLE</ProjectTitle>
+      </StyledHref>
+      
       <LinksDiv>
         <a
           href="https://github.com/claraisley/settle"
@@ -34,11 +39,11 @@ export default function Settle() {
       <ImageDiv>
       <ProjectImg
         alt="settle"
-        src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583451000/Screen_Shot_2020-03-05_at_6.29.19_PM_tnhxeo.png"
+        src="https://github.com/claraisley/settle/raw/master/docs/sign-in.gif?raw=true"
       />
       <ProjectImg
         alt="settle"
-        src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583455494/Screen_Shot_2020-03-05_at_7.43.34_PM_nsx6cj.png"
+        src="https://github.com/claraisley/settle/raw/master/docs/workthrough.gif?raw=true"
       />
 
       </ImageDiv>

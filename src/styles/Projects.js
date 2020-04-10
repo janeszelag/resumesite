@@ -35,11 +35,15 @@ export const ProjectTitle = styled.h1`
   @media (max-width: 768px) {
     font-size: 3em;
   }
+  &:hover {
+    color: #b30000;
+    
+  }
 `;
 
 export const ProjectImg = styled.img`
-  height: 32vh;
-  width: 48vh;
+  height: 80vh;
+  width: 80%;
   border-radius: 2%;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -67,11 +71,12 @@ export const ProjectText = styled.p`
   @media (max-width: 768px) {
     font-size: 1em;
   }
+
 `;
 export const BioText = styled.p`
 color: #000000;
   font-size: 1.5em;
-  font-family: "Poppins";
+  font-family: "Cantata One", serif;
   font-weight: 400;
   margin: 1em;
   margin-top: 0em;
@@ -82,7 +87,7 @@ color: #000000;
 export const EducationText = styled.p`
   color: #353336;
   font-size: 1.5em;
-  font-family: "Poppins";
+  font-family: "Cantata One", serif;
   font-weight: 400;
   margin: 1em;
   margin-top: 0em;
@@ -100,3 +105,12 @@ justify-content: center;
 align-items: center;
 
 `
+
+export const StyledHref = styled.a`
+text-decoration: none;
+&:hover {
+  text-decoration: underline;
+  text-decoration-color: #b30000;
+  
+}
+`;

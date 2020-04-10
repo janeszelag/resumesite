@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectPaper, TextDiv, ProjectTitle, ProjectImg, ProjectText, ImageDiv} from "../styles/Projects"
+import { ProjectPaper, TextDiv, ProjectTitle, ProjectImg, ProjectText, ImageDiv, StyledHref} from "../styles/Projects"
 import { LinksDiv, LinkImg} from "../styles/Links";
 
 export default function Scheduler() {
@@ -8,7 +8,11 @@ export default function Scheduler() {
   return (
     <ProjectPaper elevation={12}>
     <TextDiv>
+    <StyledHref href="https://github.com/janeszelag/scheduler"
+                target="_blank"
+                rel="noopener noreferrer">>
       <ProjectTitle>SCHEDULER</ProjectTitle>
+      </StyledHref>
       <LinksDiv>
         <a
           href="https://github.com/janeszelag/scheduler"
@@ -24,11 +28,11 @@ export default function Scheduler() {
       <ImageDiv>
       <ProjectImg
         alt="scheduler"
-        src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583456188/interview-hover_whczjj.png"
+        src="https://github.com/janeszelag/scheduler/raw/master/docs/BookingInterview.gif?raw=true"
       />
        <ProjectImg
         alt="scheduler"
-        src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583456179/delete-confirmation_ntxqtd.png"
+        src="https://github.com/janeszelag/scheduler/raw/master/docs/DeletingInterview.gif?raw=true"
       />
       </ImageDiv>
 

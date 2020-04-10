@@ -79,6 +79,14 @@ export default function MainPage() {
             <Icon src="https://res.cloudinary.com/dpfixnpii/image/upload/v1586482167/mortarboard_tsxmvj.svg" />
           </Link>
         </SideDiv2>
+        <SideDiv2>
+          <StyledLink to="/experience">
+            <ColumnTitle>Experience</ColumnTitle>
+          </StyledLink>
+          <Link to="/experience">
+            <Icon src="https://res.cloudinary.com/dpfixnpii/image/upload/v1586487986/goal_p05m2p.svg"/>
+          </Link>
+        </SideDiv2>
       </SideDiv>
     </MainDiv>
   );

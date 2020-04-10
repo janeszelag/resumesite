@@ -132,10 +132,12 @@ export const Text = styled.p`
 export const Icon = styled.img`
   height: 12vh;
   width: 12vh;
+  margin-bottom: 3em;
 
   @media (max-width: 900px) {
     height: 10vh;
     width: 10vh;
+    margin-bottom: 0em;
   }
 `;
 export const SideDiv2 = styled.div`

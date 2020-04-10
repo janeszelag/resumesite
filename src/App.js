@@ -5,6 +5,7 @@ import Bio from "./Bio";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Education from "./Education";
+import Experience from "./Experience";
 import ScrollToTop from "./ScrollToTop";
 
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
@@ -47,6 +48,11 @@ const appLinks = [
     name: "Education",
     path: "/education",
     component: <Education />
+  },
+  {
+    name: "Experience",
+    path: "/experience",
+    component: <Experience />
   }
 ];
 const routes = appLinks.map((link, index) => {

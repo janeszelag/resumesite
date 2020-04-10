@@ -6,30 +6,24 @@ import { MainDiv, StyledPaper, ItalicText } from "./styles/ContentPages";
 import Settle from "./Projects/Settle"
 import Tweeter from "./Projects/Tweeter"
 import Scheduler from "./Projects/Scheduler"
-import { GreenHyperlink } from "./styles/Projects"
+import { useHistory } from "react-router-dom";
 
 
 
 export default function Bio(props) {
+  const history = useHistory();
+  const scrollUp = () => {
+    window.scrollTo(0, 0);
+  }
   return (
     <MainDiv>
-      <BackButton onClick={() => props.transition("MENU")} />
+      <BackButton onClick={() => history.push("/main")} />
       <Zoom in={true}>
         <StyledPaper>
-        <ItalicText>
-            Techinically, this website was itself a project🧐. The git repository for this website can be found{" "}
-            <GreenHyperlink
-              href="https://github.com/janeszelag/resumesite"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              here.
-            </GreenHyperlink>🤓
-          </ItalicText>
           <Settle/>
           <Scheduler/>
           <Tweeter/>
-          <UpButton onClick={() => props.scrollUp()} />
+          <UpButton onClick={() => scrollUp()} />
         </StyledPaper>
       </Zoom>
     </MainDiv>

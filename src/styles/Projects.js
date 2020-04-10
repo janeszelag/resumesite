@@ -29,7 +29,7 @@ export const ProjectTitle = styled.h1`
   font-weight: 400;
   font-size: 4em;
   text-align: center;
-
+  font-family: "Cantata One", serif;
   margin: 0em;
   margin-bottom: 0.5em;
   @media (max-width: 768px) {
@@ -41,6 +41,7 @@ export const ProjectImg = styled.img`
   height: 32vh;
   width: 48vh;
   border-radius: 2%;
+  margin-top: 1em;
   margin-bottom: 1em;
   margin-right: 1em;
 
@@ -59,7 +60,7 @@ export const ProjectImg = styled.img`
 export const ProjectText = styled.p`
   color: #353336;
   font-size: 1.5em;
-  font-family: "Poppins";
+  font-family: "Cantata One", serif;
   font-weight: 400;
   margin: 1em;
   margin-top: 1em;

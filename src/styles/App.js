@@ -14,25 +14,32 @@ export const MainDiv = styled.div`
 
 export const StyledDiv1 = styled.div`
   display: flex;
-  height: 30vh;
+  height: 35vh;
   width: 100%;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   justify-content: space-between;
   align-items: center;
   background-color: #faf9f8;
-
+  text-align: center;
   border-bottom: solid;
   border-bottom-style: double;
   border-bottom-color: #000000;
   border-width: 8px;
+  @media (max-width: 900px) {
+    justify-content: center;
+    text-align: center;
+  }
 `;
 
 export const SideTitle = styled.img`
-  width: 200px;
+  width: 220px;
   height: 180px;
   margin-left: 1em;
   margin-right: 1em;
+  @media (max-width: 900px) {
+    display: none;
+  }
 `;
 
 export const Name = styled.h1`
@@ -45,13 +52,13 @@ export const Name = styled.h1`
   font-family: "Cantata One", serif;
 
   @media (max-width: 768px) {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 `;
 
 export const StyledDiv2 = styled.div`
   width: 100%;
-  height: 70vh;
+  min-height: 70vh;
 
 
   display: flex;
@@ -74,13 +81,14 @@ export const LinksDiv = styled.div`
 
 export const StyledDiv3 = styled.div`
   width: 100%;
-  height: 50vh;
+  min-height: 20vh;
 
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: #c7bfb5;
 
 `;
 

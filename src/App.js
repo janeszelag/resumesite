@@ -1,11 +1,12 @@
 import React from "react";
-import Menu from "./Menu";
+import MainPage from "./MainPage";
 import Links from "./Links";
 import Bio from "./Bio";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Education from "./Education";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 
 import {
   StyledDiv1,
@@ -25,6 +26,11 @@ const appLinks = [
       <Projects
       />
     )
+  },
+  {
+    name: "MainPage",
+    path: "/main",
+    component: <MainPage />
   },
   {
     name: "Skills",
@@ -63,16 +69,22 @@ function App() {
         <LinksDiv>
         <Links />
         </LinksDiv>
-        
+        <Switch>
+        <Route exact path="/">
+          
+              <Redirect to="/main" />
+            
+          </Route>
+          {routes}
+        </Switch>
 
       
       </StyledDiv2>
-      <StyledDiv3></StyledDiv3>
-      <Switch>
-          {routes}
-        </Switch>
+    
         
       </Router>
+      <StyledDiv3></StyledDiv3>
+
   
     </MainDiv>
   );

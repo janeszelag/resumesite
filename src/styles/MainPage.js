@@ -18,13 +18,14 @@ export const MainDiv = styled.div`
 export const ProjectsDiv = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
   margin-top: 1em;
   min-height: 70vh;
   width: 44%;
 
   @media (max-width: 900px) {
     width: 90%;
+    align-items: center;
     border: solid;
     border-weight: 0.5px;
     border-color: #c7bfb5;
@@ -50,18 +51,21 @@ export const SubTitle = styled.h2`
   color: #000000;
   font-weight: 400;
   font-size: 2em;
-  text-align: center;
+  text-align: left;
   font-family: "Cantata One", serif;
   margin-top: 1em;
   margin-bottom: 0.5em;
   &:hover {
     color: #b30000;
   }
+  @media (max-width: 900px) {
+    text-align: center;
+  }
 `;
 export const StyledHref = styled.a`
   text-align: center;
   width: 100%;
-
+  
   text-decoration: underline;
   text-decoration-color: #000000;
   &:hover {
@@ -72,6 +76,7 @@ export const StyledHref = styled.a`
 export const StyledLink = styled(Link)`
   text-decoration: underline;
   text-decoration-color: #000000;
+  
   &:hover {
     text-decoration-color: #b30000;
   }
@@ -117,9 +122,10 @@ export const Text = styled.p`
   color: #000000;
   font-weight: 400;
   font-size: 25px;
-  text-align: center;
+  text-align: left;
   font-family: "Cantata One", serif;
   margin: 1em;
+  margin-left: 2em;
   margin-bottom: 0.5em;
   &:hover {
     color: #b30000;

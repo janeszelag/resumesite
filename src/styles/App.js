@@ -78,6 +78,9 @@ export const LinksDiv = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  @media (max-width: 768px) {
+    margin-bottom: 1em;
+  }
 `;
 
 export const StyledDiv3 = styled.div`

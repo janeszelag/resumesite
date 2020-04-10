@@ -160,9 +160,10 @@ export const SideDiv = styled.div`
   justify-content: flex-start;
   align-items: center;
   margin-top: 1em;
-  padding-top: 1em;
+  margin: 1em;
+  padding-top: 2em;
   min-height: 70vh;
-  width: 26%;
+  width: 24%;
   background-color: #e9e5e2;
   @media (max-width: 900px) {
     width: 90%;

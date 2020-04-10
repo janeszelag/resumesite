@@ -53,7 +53,7 @@ export default function MainPage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <ProjectImage src="https://github.com/janeszelag/Newton/raw/master/docs/ScreenShot.png?raw=true" />
+          <ProjectImage src="https://github.com/janeszelag/Newton/blob/master/docs/ScreenShot.gif?raw=true" />
         </a>
         <StyledLink to="/projects">
           <SubTitle>Past Projects</SubTitle>

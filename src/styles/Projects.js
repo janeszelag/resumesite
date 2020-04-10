@@ -2,10 +2,7 @@
 import styled from "styled-components";
 import Paper from "@material-ui/core/Paper";
 
-export const GreenHyperlink = styled.a`
-  color: #6e7c5e;
 
-`;
 
 export const ProjectPaper = styled(Paper)`
   width: 90%;
@@ -108,6 +105,7 @@ align-items: center;
 
 export const StyledHref = styled.a`
 text-decoration: none;
+margin: 0em;
 &:hover {
   text-decoration: underline;
   text-decoration-color: #b30000;

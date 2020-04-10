@@ -10,7 +10,7 @@ export default function Scheduler() {
     <TextDiv>
     <StyledHref href="https://github.com/janeszelag/scheduler"
                 target="_blank"
-                rel="noopener noreferrer">>
+                rel="noopener noreferrer">
       <ProjectTitle>SCHEDULER</ProjectTitle>
       </StyledHref>
       <LinksDiv>

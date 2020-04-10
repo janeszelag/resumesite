@@ -10,7 +10,7 @@ export default function Tweeter() {
     <TextDiv>
     <StyledHref href="https://github.com/janeszelag/tweeter"
                 target="_blank"
-                rel="noopener noreferrer">>
+                rel="noopener noreferrer">
       <ProjectTitle>TWEETER</ProjectTitle>
       </StyledHref>
       <LinksDiv>

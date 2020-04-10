@@ -9,7 +9,7 @@ export default function Settle() {
     <TextDiv>
       <StyledHref href="https://github.com/claraisley/settle"
                 target="_blank"
-                rel="noopener noreferrer">>
+                rel="noopener noreferrer">
       <ProjectTitle>SETTLE</ProjectTitle>
       </StyledHref>
       

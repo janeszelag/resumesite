@@ -5,10 +5,14 @@ import styled from "styled-components";
 export const MainDiv = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+
   width: 100%;
+  margin-top: 10%;
   flex-wrap: wrap;
-  justify-content: center;
+  @media (max-width: 768px) {
+    margin-top: 30%
+  }
+ 
   align-items: center;
 `;
 
@@ -32,6 +36,16 @@ export const StyledDiv1 = styled.div`
   }
 `;
 
+export const NameDiv = styled.div`
+  display: flex;
+  text-align: center;
+  margin: 4px;
+  @media (max-width: 768px) {
+    width: 80%
+    margin: 10px;
+  }
+`;
+
 export const SideTitle = styled.img`
   width: 220px;
   height: 180px;
@@ -47,12 +61,13 @@ export const Name = styled.h1`
   font-size: 75px;
 
   font-weight: 400;
-  margin: 0em;
-  padding: 0em;
-  font-family: "Cantata One", serif;
+  margin: 2px;
+  padding: 2px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   @media (max-width: 768px) {
-    font-size: 3.5em;
+    font-size: 60px;
+    line-height: 60px;
   }
 `;
 
@@ -68,19 +83,20 @@ export const StyledDiv2 = styled.div`
 `;
 
 export const LinksDiv = styled.div`
-  width: 100%;
+  padding: 0px;
+  width: 50%;
   height: 9vh;
   display: flex;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  background-color: #c7bfb5;
+  border-radius: 3px;
+  background-color: #9c9791;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   @media (max-width: 768px) {
-    margin-bottom: 1em;
+    width: 80%
   }
+
 `;
 
 export const StyledDiv3 = styled.div`

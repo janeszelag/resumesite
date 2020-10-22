@@ -5,29 +5,30 @@ export const LinksDiv = styled.div`
   display: flex;
   flex-direction: row;
 
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
   @media (max-width: 768px) {
-    height: 15%;
+    width: 60%;
   }
 `;
 
 export const LinkImg = styled.img`
   width: 6vh;
   height: 6vh;
-  margin-left: 0em;
-  @media (max-width: 768px) {
-    width: 5vh;
-    height: 5vh;
-  }
+  margin: 0px 4px 0px 4px;
+
   &:hover {
     transform: rotate(20deg);
     cursor: pointer;
   }
 `;
 
-export const LinkImgMiddle = styled(LinkImg)`
-  margin-left: 0.75em;
-  margin-right: 0.75em;
-`;
+
+
+export const Href = styled.a`
+  width: 6vh;
+  height: 6vh;
+  margin: 0px 4px 0px 4px;
+
+`

@@ -7,10 +7,6 @@ export const LinksDiv = styled.div`
 
   justify-content: space-around;
   align-items: center;
-
-  @media (max-width: 768px) {
-    width: 60%;
-  }
 `;
 
 export const LinkImg = styled.img`
@@ -22,6 +18,7 @@ export const LinkImg = styled.img`
     transform: rotate(20deg);
     cursor: pointer;
   }
+
 `;
 
 

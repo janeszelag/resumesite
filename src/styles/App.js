@@ -41,7 +41,7 @@ export const NameDiv = styled.div`
   text-align: center;
   margin: 4px;
   @media (max-width: 768px) {
-    width: 80%
+    width: 80%;
     margin: 10px;
   }
 `;

@@ -1,6 +1,6 @@
 import React from "react";
 import { ProjectPaper, TextDiv, ProjectTitle, ProjectImg, ProjectText, ImageDiv, StyledHref} from "../styles/Projects"
-import { LinksDiv, LinkImg, LinkImgMiddle } from "../styles/Links";
+import { LinksDiv, LinkImg } from "../styles/Links";
 export default function Settle() {
 
 
@@ -30,7 +30,7 @@ export default function Settle() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <LinkImgMiddle
+          <LinkImg
             alt="homepage"
             src="https://res.cloudinary.com/dpfixnpii/image/upload/v1583453208/home-run_rzsi7x.svg"
           />

@@ -37,12 +37,10 @@ export const StyledDiv1 = styled.div`
 `;
 
 export const NameDiv = styled.div`
-  display: flex;
-  text-align: center;
-  margin: 4px;
+  
   @media (max-width: 768px) {
     width: 80%;
-    margin: 10px;
+   
   }
 `;
 
@@ -61,13 +59,14 @@ export const Name = styled.h1`
   font-size: 75px;
 
   font-weight: 400;
-  margin: 2px;
-  padding: 2px;
+  margin-bottom: 2px;
+
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   @media (max-width: 768px) {
     font-size: 60px;
     line-height: 60px;
+    margin-bottom: 10px;
   }
 `;
 
@@ -84,7 +83,7 @@ export const StyledDiv2 = styled.div`
 
 export const LinksDiv = styled.div`
   padding: 0px;
-  width: 50%;
+  width: 100%;
   height: 9vh;
   display: flex;
   border-radius: 3px;
@@ -94,7 +93,7 @@ export const LinksDiv = styled.div`
   justify-content: center;
   align-items: center;
   @media (max-width: 768px) {
-    width: 80%
+    width: 100%
   }
 
 `;

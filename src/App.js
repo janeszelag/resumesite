@@ -65,11 +65,12 @@ function App() {
     <MainDiv>
       <NameDiv>
       <Name>katherine szelag</Name>
-      </NameDiv>
-     
-        <LinksDiv>
+      <LinksDiv>
         <Links />
         </LinksDiv>
+      </NameDiv>
+     
+     
     </MainDiv>
   );
 }
